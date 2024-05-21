@@ -27,7 +27,8 @@ mix
       "./node_modules/select2/dist/css/select2.css",
       "./public/css/build/overrides.css",
     ],
-    "./public/css/dist/all.css"
+    "./public/css/dist/all.css",
+    "./public/css/dist/direction.css"
   )
   .version();
 
