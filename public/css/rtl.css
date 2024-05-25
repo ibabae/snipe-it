@@ -207,3 +207,34 @@ th {
   border-left: 1px solid #d2d6de;
   border-right: 0;
 }
+.nav-tabs>li {
+  float: right;
+}
+@media (min-width: 768px) {
+  .col-sm-pull-3 {
+      right: unset;
+      left: 25%;
+  }
+}
+@media (min-width: 768px) {
+  .col-sm-push-9 {
+      left: unset;
+      right: 75%;
+  }
+}
+.bootstrap-table .fixed-table-toolbar .columns .dropdown-menu {
+  text-align: right!important;
+}
+.bootstrap-table .fixed-table-toolbar .pull-right .dropdown-menu {
+  left: 0 !important;
+  right: auto !important;
+}
+@media (min-width: 1200px) {
+  .col-lg-offset-2 {
+      margin-left: unset;
+      margin-right: 16.66666667%;
+  }
+}
+.text-left {
+  text-align: right;
+}
