@@ -9,6 +9,6 @@ return array(
 
 ',
     'api_token_expiration_time' => 'توکن‌های API در موارد زیر منقضی می‌شوند:',
-    'api_reference' => 'لطفاً <a href="https://snipe-it.readme.io/reference" target="_blank">مرجع API</a> را بررسی کنید
-                    نقاط انتهایی API خاص و اسناد API اضافی را پیدا کنید.',
+    'api_reference' => 'لطفاً <a href="https://snipe-it.readme.io/reference" target="_blank">مرجع API</a> را بررسی کنید نقاط انتهایی API خاص و اسناد API اضافی را پیدا کنید.',
+    'profile_updated' => 'پروفایل با موفقیت به روز رسانی شد',
 );
