@@ -20,7 +20,7 @@ return [
 ',
     'model_invalid'             => 'The Model of this Asset is invalid.',
     'model_invalid_fix'         => 'The Asset should be edited to correct this before attempting to check it in or out.',
-    'requestable'               => 'در خواست شد',
+    'requestable'               => 'قابل درخواست',
     'requested'				    => 'درخواست شده',
     'not_requestable'           => 'غیر قابل درخواست
 ',
