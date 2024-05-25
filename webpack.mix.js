@@ -197,8 +197,8 @@ mix
             './node_modules/xlsx/dist/xlsx.core.min.js',
             './node_modules/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.js',
             './node_modules/bootstrap-table/dist/extensions/toolbar/bootstrap-table-toolbar.js',
-            './js/plugins/persiandatepicker/persian.date.js',
-            './js/plugins/jQuery/jQuery-2.1.4.min.js',
+            './js/plugins/persiandatepicker/persian-date.min.js',
+            './js/plugins/persiandatepicker/persian-datepicker.min.js',
         ],
         'public/js/dist/bootstrap-table.js'
  ).version();
