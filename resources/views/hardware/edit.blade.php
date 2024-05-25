@@ -7,8 +7,9 @@
     'helpPosition' => 'right',
     'formAction' => ($item->id) ? route('hardware.update', ['hardware' => $item->id]) : route('hardware.store'),
 ])
-
-
+@push('css')
+    <link rel="stylesheet" href="{{ url(mix('js/plugins/persiandatepicker/persian-datepicker.min.css')) }}">
+@endpush
 {{-- Page content --}}
 @section('inputFields')
     
@@ -117,8 +118,8 @@
                 </label>
 
                 <div class="input-group col-md-4">
-                    <div class="input-group date" data-provide="datepicker" data-date-clear-btn="true" data-date-format="yyyy-mm-dd"  data-autoclose="true">
-                        <input type="text" class="form-control" placeholder="{{ trans('general.select_date') }}" name="next_audit_date" id="next_audit_date" value="{{ old('next_audit_date', $item->next_audit_date) }}" readonly style="background-color:inherit" maxlength="10">
+                    <div class="input-group">
+                        <input type="text" class="form-control @if(in_array(app()->getLocale(),['ar-SA','fa-IR', 'he-IL'])) pdate @else date @endif" data-provide="datepicker" data-date-clear-btn="true" data-date-format="yyyy-mm-dd"  data-autoclose="true" placeholder="{{ trans('general.select_date') }}" name="next_audit_date" id="next_audit_date" value="{{ old('next_audit_date', $item->next_audit_date) }}" readonly style="background-color:inherit" maxlength="10">
                         <span class="input-group-addon"><i class="fas fa-calendar" aria-hidden="true"></i></span>
                     </div>
                 </div>
@@ -176,7 +177,38 @@
     </div>
    
 @stop
+@push('js')
+    @if(in_array(app()->getLocale(),['ar-SA','fa-IR', 'he-IL']))
+        <script src="{{ url(mix('js/plugins/persiandatepicker/persian-date.min.js')) }}"></script>
+        <script src="{{ url(mix('js/plugins/persiandatepicker/persian-datepicker.min.js')) }}"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".pdate").persianDatepicker({
+                    autoClose: true,
+                    responsive: false,
+                    observer: true,
+                    format: 'YYYY/MM/DD',
+                    initialValue: false,
+                    "toolbox": {
+                        "enabled": false,
+                        "calendarSwitch": {
+                            "enabled": false,
+                            "format": "MMMM"
+                        },
+                        "todayButton": {
+                            "enabled": false,
+                            "text": {
+                                "fa": "امروز",
+                                "en": "Today"
+                            }
+                        }
+                    }
 
+                });
+            });
+        </script>
+    @endif
+@endpush
 @section('moar_scripts')
 
 
