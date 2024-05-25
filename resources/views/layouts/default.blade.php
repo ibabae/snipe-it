@@ -33,7 +33,7 @@ dir="{{ in_array(app()->getLocale(),['ar-SA','fa-IR', 'he-IL']) ? 'rtl' : 'ltr' 
     {{-- stylesheets --}}
     <link rel="stylesheet" href="{{ url(mix('css/dist/all.css')) }}">
     @if(in_array(app()->getLocale(),['ar-SA','fa-IR', 'he-IL']))
-        <link rel="stylesheet" href="{{ url(mix('css/dist/direction.css')) }}">
+        <link rel="stylesheet" href="{{ url(mix('css/rtl.css')) }}">
     @endif
     @if (($snipeSettings) && ($snipeSettings->allow_user_skin==1) && Auth::check() && Auth::user()->present()->skin != '')
         <link rel="stylesheet" href="{{ url(mix('css/dist/skins/skin-'.Auth::user()->present()->skin.'.min.css')) }}">

@@ -28,7 +28,7 @@ mix
       "./public/css/build/overrides.css",
     ],
     "./public/css/dist/all.css",
-    "./public/css/dist/direction.css"
+    "./public/css/rtl.css",
   )
   .version();
 

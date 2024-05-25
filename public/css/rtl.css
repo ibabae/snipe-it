@@ -1,0 +1,209 @@
+*,.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vazir';
+}
+/* input[type='currency'],input[type='number']{
+  font-family: sans-serif!important;
+} */
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/vazir/Vazir-FD.eot');
+  src: url('../fonts/vazir/Vazir-FD.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vazir/Vazir-FD.woff2') format('woff2'),
+       url('../fonts/vazir/Vazir-FD.woff') format('woff'),
+       url('../fonts/vazir/Vazir-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/vazir/Vazir-Bold-FD.eot');
+  src: url('../fonts/vazir/Vazir-Bold-FD.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vazir/Vazir-Bold-FD.woff2') format('woff2'),
+       url('../fonts/vazir/Vazir-Bold-FD.woff') format('woff'),
+       url('../fonts/vazir/Vazir-Bold-FD.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/vazir/Vazir-Light-FD.eot');
+  src: url('../fonts/vazir/Vazir-Light-FD.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vazir/Vazir-Light-FD.woff2') format('woff2'),
+       url('../fonts/vazir/Vazir-Light-FD.woff') format('woff'),
+       url('../fonts/vazir/Vazir-Light-FD.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/vazir/Vazir-Medium-FD.eot');
+  src: url('../fonts/vazir/Vazir-Medium-FD.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vazir/Vazir-Medium-FD.woff2') format('woff2'),
+       url('../fonts/vazir/Vazir-Medium-FD.woff') format('woff'),
+       url('../fonts/vazir/Vazir-Medium-FD.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/vazir/Vazir-Thin-FD.eot');
+  src: url('../fonts/vazir/Vazir-Thin-FD.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vazir/Vazir-Thin-FD.woff2') format('woff2'),
+       url('../fonts/vazir/Vazir-Thin-FD.woff') format('woff'),
+       url('../fonts/vazir/Vazir-Thin-FD.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/vazir/Vazir-Black-FD.eot');
+  src: url('../fonts/vazir/Vazir-Black-FD.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/vazir/Vazir-Black-FD.woff2') format('woff2'),
+       url('../fonts/vazir/Vazir-Black-FD.woff') format('woff'),
+       url('../fonts/vazir/Vazir-Black-FD.ttf') format('truetype');
+  font-weight: 900;
+}
+@media (min-width: 768px) {
+  .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .right-side {
+      margin-right: 50px !important;
+      margin-left: 0 !important;
+  }
+}
+.sidebar-mini.sidebar-collapse .main-header .navbar {
+  margin-left: 0;
+  margin-right: 50px;
+}
+.main-sidebar {
+  right: 0;
+}
+.main-header .sidebar-toggle {
+  float: right;
+}
+.sidebar-toggle {
+  margin-left: 0;
+  margin-right: -48px;
+}
+/* .content-wrapper, .main-footer {
+  margin-left: 0;
+  margin-right: 230px;
+} */
+
+.content-wrapper, .main-footer {
+  margin-left: 0;
+  margin-right: 230px;
+}
+.main-header .navbar {
+  margin-left: 0;
+  margin-right: 230px;
+}
+.sidebar-menu li>a>.fa-angle-left {
+  right: unset!important;
+  left: 10px!important;
+}
+@media (min-width: 992px) {
+  .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+      float: right;
+  }
+}
+.pull-left{
+  float:right!important
+}
+.pull-right{
+  float:left!important
+}
+@media (min-width: 768px) {
+  .sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>.treeview-menu, .sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right) {
+      right: 50px;
+  }
+}
+.skin-blue .sidebar-menu>li>a {
+  border-left: unset!important;
+  border-right: 3px solid transparent;
+}
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a {
+  border-left-color: unset;
+  border-right-color: #3c8dbc;
+}
+@media (min-width: 768px) {
+  .sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>a>span {
+      margin-left: unset;
+      margin-right: -3px;
+      padding: 12px 5px 12px 20px;
+  }
+}
+@media (min-width: 768px) {
+  .sidebar-mini.sidebar-collapse .sidebar-menu>li>a>span {
+      border-top-right-radius: unset;
+      border-top-left-radius: 4px;
+  }
+}
+@media (min-width: 768px) {
+  .sidebar-mini.sidebar-collapse .sidebar-menu>li>.treeview-menu {
+      border-bottom-right-radius: unset;
+      border-bottom-left-radius: 4px;
+  }
+}
+@media (min-width: 768px) {
+  .sidebar-mini.sidebar-collapse .sidebar-menu>li:not(.treeview)>a>span {
+      border-bottom-right-radius: unset;
+      border-bottom-left-radius: 4px;
+  }
+}
+@media (min-width: 768px) {
+  .sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>.treeview-menu {
+      margin-right: 0;
+  }
+}
+.sidebar-menu>li>a {
+  padding: 12px 15px 12px 5px;
+}
+@media (min-width: 768px) {
+  .navbar-left {
+      float: right !important;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav>li {
+      float: right;
+  }
+}
+.navbar-nav>.user-menu .user-image {
+  float: right!important;
+  margin-right: unset;
+  margin-left: 10px;
+}
+.dropdown-menu {
+  text-align: right;
+}
+.main-header .navbar-custom-menu, .main-header .navbar-right {
+  float: left;
+}
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+  left: 0;
+  right: auto;
+}
+.small-box .icon {
+  right: unset;
+  left: 10px;
+}
+.required {
+  border-right: unset;
+  border-left: 6px solid orange;
+}
+.navbar-brand>img, img.navbar-brand-img {
+  float: right;
+  padding: 5px 0 5px 5px;
+}
+th {
+  text-align: right;
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: unset;
+  border-bottom-right-radius: unset;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.input-group-addon:last-child {
+  border-left: 1px solid #d2d6de;
+  border-right: 0;
+}
