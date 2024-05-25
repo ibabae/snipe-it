@@ -1,5 +1,7 @@
 {
     "/js/build/app.js": "/js/build/app.js?id=6bbc4dd6b643fefe492261fdfe6fae5a",
+    "/js/plugins/persiandatepicker/persian.date.js": "/js/plugins/persiandatepicker/persian.date.js?id=6bbc4dd6b643fefe492261fdfe6fae5b",
+    "/js/plugins/persiandatepicker/persian.datepicker.js": "/js/plugins/persiandatepicker/persian.datepicker.js?id=6bbc4dd6b643fefe492261fdfe6fae5c",
     "/css/dist/skins/skin-blue.css": "/css/dist/skins/skin-blue.css?id=392cc93cfc0be0349bab9697669dd091",
     "/css/build/overrides.css": "/css/build/overrides.css?id=c071d0741611371e84c380de2fb13b46",
     "/css/build/app.css": "/css/build/app.css?id=cd07d2f45297c702527a330dce45dd46",
@@ -20,6 +22,7 @@
     "/css/dist/skins/skin-red.css": "/css/dist/skins/skin-red.css?id=b9a74ec0cd68f83e7480d5ae39919beb",
     "/css/dist/all.css": "/css/dist/all.css?id=3785387b68b5d74dccd037fe5340e038",
     "/css/rtl.css": "/css/rtl.css?id=3785387b68b5d74dccd037fe5340e039",
+    "/js/plugins/persiandatepicker/persian-datepicker.min.css": "/js/plugins/persiandatepicker/persian-datepicker.min.css?id=3785387b68b5d74dccd037fe5340e040",
     "/css/dist/signature-pad.css": "/css/dist/signature-pad.css?id=6a89d3cd901305e66ced1cf5f13147f7",
     "/css/dist/signature-pad.min.css": "/css/dist/signature-pad.min.css?id=6a89d3cd901305e66ced1cf5f13147f7",
     "/css/webfonts/fa-brands-400.ttf": "/css/webfonts/fa-brands-400.ttf?id=0141634c24336be626e05c8b77d1fa27",

@@ -29,6 +29,7 @@ mix
     ],
     "./public/css/dist/all.css",
     "./public/css/rtl.css",
+    "./public/js/plugins/persiandatepicker/persian-datepicker.min.css",
   )
   .version();
 
@@ -195,7 +196,9 @@ mix
             './resources/assets/js/FileSaver.min.js',
             './node_modules/xlsx/dist/xlsx.core.min.js',
             './node_modules/bootstrap-table/dist/extensions/sticky-header/bootstrap-table-sticky-header.js',
-            './node_modules/bootstrap-table/dist/extensions/toolbar/bootstrap-table-toolbar.js'
+            './node_modules/bootstrap-table/dist/extensions/toolbar/bootstrap-table-toolbar.js',
+            './js/plugins/persiandatepicker/persian.date.js',
+            './js/plugins/jQuery/jQuery-2.1.4.min.js',
         ],
         'public/js/dist/bootstrap-table.js'
  ).version();
