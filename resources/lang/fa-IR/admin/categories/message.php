@@ -14,7 +14,7 @@ return array(
     'update' => array(
         'error'   => 'دسته بندی به روزرسانی نشد.لطفا دوباره تلاش کنید.',
         'success' => 'دسته بندی با موفقیت به روزرسانی شد.',
-        'cannot_change_category_type'   => 'You cannot change the category type once it has been created',
+        'cannot_change_category_type'   => 'امکان تغییر دسته پس از ایجاد وجود ندارد',
     ),
 
     'delete' => array(

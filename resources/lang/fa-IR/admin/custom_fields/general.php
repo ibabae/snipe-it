@@ -29,46 +29,35 @@ return [
     'used_by_models'   		    => 'استفاده شده توسط مدل ها',
     'order'   		            => 'سفارش',
     'create_fieldset'         => 'تنظیمات فیلد جدید',
-    'update_fieldset'         => 'Update Fieldset',
-    'fieldset_does_not_exist'   => 'Fieldset :id does not exist',
-    'fieldset_updated'         => 'Fieldset updated',
+    'update_fieldset'         => 'Update Fieldset', //! translate it
+    'fieldset_does_not_exist'   => 'Fieldset :id does not exist', //! translate it
+    'fieldset_updated'         => 'Fieldset updated', //! translate it
     'create_fieldset_title' => 'ایجاد یک عنصر جدید',
     'create_field'            => 'فیلد سفارشی جدید',
-    'create_field_title' => 'یک فیلد سفارشی جدید ایجاد کنید
-',
+    'create_field_title' => 'یک فیلد سفارشی جدید ایجاد کنید',
     'value_encrypted'      	        => 'ارزش این فیلد در پایگاه داده رمزگذاری شده است. فقط کاربران مدیریت قادر به مشاهده مقدار رمزگشایی خواهند شد',
-    'show_in_email'     => 'Include the value of this field in checkout emails sent to the user? Encrypted fields cannot be included in emails',
-    'show_in_email_short'     => 'Include in emails.',
+    'show_in_email'     => 'Include the value of this field in checkout emails sent to the user? Encrypted fields cannot be included in emails', //! translate it
+    'show_in_email_short'     => 'Include in emails.', //! translate it
     'help_text' => 'متن راهنما',
-    'help_text_description' => 'این متن اختیاری است که هنگام ویرایش یک دارایی برای ارائه زمینه در فیلد در زیر عناصر فرم ظاهر می شود.
-',
-    'about_custom_fields_title' => 'درباره فیلدهای سفارشی
-',
-    'about_custom_fields_text' => 'فیلدهای سفارشی به شما این امکان را می دهند که ویژگی های دلخواه را به دارایی ها اضافه کنید.
-',
-    'add_field_to_fieldset' => 'فیلد را به مجموعه فیلد اضافه کنید
-',
-    'make_optional' => 'مورد نیاز - کلیک کنید تا اختیاری شود
-',
-    'make_required' => 'اختیاری - کلیک کنید تا مورد نیاز است
-',
+    'help_text_description' => 'این متن اختیاری است که هنگام ویرایش یک دارایی برای ارائه زمینه در فیلد در زیر عناصر فرم ظاهر می شود.',
+    'about_custom_fields_title' => 'درباره فیلدهای سفارشی',
+    'about_custom_fields_text' => 'فیلدهای سفارشی به شما این امکان را می دهند که ویژگی های دلخواه را به دارایی ها اضافه کنید.',
+    'add_field_to_fieldset' => 'فیلد را به مجموعه فیلد اضافه کنید',
+    'make_optional' => 'مورد نیاز - کلیک کنید تا اختیاری شود',
+    'make_required' => 'اختیاری - کلیک کنید تا مورد نیاز است',
     'reorder' => 'سفارش مجدد',
-    'db_field' => 'فیلد DB
-',
-    'db_convert_warning' => 'هشدار. این فیلد در جدول فیلدهای سفارشی به عنوان <code>:db_column</code> است اما باید <code>: انتظار می رود</code> باشد.
-',
-    'is_unique' => 'این مقدار باید در همه دارایی ها منحصر به فرد باشد
-',
-    'unique' => 'منحصر بفرد
-',
-    'display_in_user_view' => 'Allow the checked out user to view these values in their View Assigned Assets page',
-    'display_in_user_view_table' => 'Visible to User',
-    'auto_add_to_fieldsets' => 'Automatically add this to every new fieldset',
-    'add_to_preexisting_fieldsets' => 'Add to any existing fieldsets',
-    'show_in_listview' => 'Show in list views by default. Authorized users will still be able to show/hide via the column selector',
-    'show_in_listview_short' => 'Show in lists',
-    'show_in_requestable_list_short' => 'Show in requestable assets list',
-    'show_in_requestable_list' => 'Show value in requestable assets list. Encrypted fields will not be shown',
-    'encrypted_options' => 'This field is encrypted, so some display options will not be available.',
+    'db_field' => 'فیلد DB',
+    'db_convert_warning' => 'هشدار. این فیلد در جدول فیلدهای سفارشی به عنوان <code>:db_column</code> است اما باید <code>: انتظار می رود</code> باشد.',
+    'is_unique' => 'این مقدار باید در همه دارایی ها منحصر به فرد باشد',
+    'unique' => 'منحصر بفرد',
+    'display_in_user_view' => 'Allow the checked out user to view these values in their View Assigned Assets page', //! translate it
+    'display_in_user_view_table' => 'قابل مشاهده برای کاربر',
+    'auto_add_to_fieldsets' => 'Automatically add this to every new fieldset', //! translate it
+    'add_to_preexisting_fieldsets' => 'Add to any existing fieldsets', //! translate it
+    'show_in_listview' => 'به طور پیش فرض در لیست ها نمایش داده می شود. همچنان کاربران مجاز می‌توانند در انتخاب ستون نمایش/عدم نمایش آن را تعیین کنند.',
+    'show_in_listview_short' => 'نمایش در لیست ها',
+    'show_in_requestable_list_short' => 'نمایش در لیست دارایی های قابل درخواست',
+    'show_in_requestable_list' => 'نمایش ارزش در لیست دارایی های قابل درخواست. فیلدهای رمزگذاری شده نشان داده نخواهند شد',
+    'encrypted_options' => 'این فیلد رمزگذاری شده است، بنابراین برخی از گزینه های نمایش در دسترس نخواهند بود.',
 
 ];

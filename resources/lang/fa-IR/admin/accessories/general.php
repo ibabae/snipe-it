@@ -14,11 +14,8 @@ return array(
     'total'  							=> 'مجموع',
     'remaining'  						=> 'سود',
     'update'  							=> 'به روزرساتی وسیله',
-    'use_default_eula'					=> 'از Use the <a href="#" data-toggle="modal" data-target="#eulaModal">EULA پیشفرض اولیه</a> instead.
- استفاده کنید',
-    'use_default_eula_disabled'			=> 'از پیشفرض اولیه EULA استفاده کنید.<del>هیچ پیشفرضی اولیه ای تنظیم نشده است</del>
-در تنظیمات اضافه کنید',
+    'use_default_eula'					=> 'از Use the <a href="#" data-toggle="modal" data-target="#eulaModal">EULA پیشفرض اولیه</a> instead. استفاده کنید',
+    'use_default_eula_disabled'			=> 'از پیشفرض اولیه EULA استفاده کنید.<del>هیچ پیشفرضی اولیه ای تنظیم نشده است</del> در تنظیمات اضافه کنید',
     'clone'                             => 'Clone Accessory',
     'delete_disabled'                   => 'This accessory cannot be deleted yet because some items are still checked out.',
-
 );

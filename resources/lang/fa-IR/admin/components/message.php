@@ -24,7 +24,7 @@ return array(
         'error'   		=> 'کامپیوننت پرداخت نشد ، دوباره سعی کنید.',
         'success' 		=> 'کامپیوننت پرداخت شد.',
         'user_does_not_exist' => 'کاربر نامعتبر است لطفا دوباره امتحان کنید.',
-        'unavailable'      => 'Not enough components remaining: :remaining remaining, :requested requested ',
+        'unavailable'      => 'اجزای کافی باقی نمانده است: :remaining باقی مانده، :requested درخواست شده است ',
     ),
 
     'checkin' => array(

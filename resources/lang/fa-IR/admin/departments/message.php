@@ -3,7 +3,7 @@
 return array(
 
     'does_not_exist' => 'اداره وجود ندارد',
-    'department_already_exists' => 'A department already exists with that name at this company location. Or choose a more specific name for this department. ',
+    'department_already_exists' => 'از قبل یک اداره با آن نام در این شرکت وجود دارد. یا می توانید نام مشخص تری برای این اداره انتخاب کنید. ',
     'assoc_users'	 => 'این بخش در حال حاضر حداقل با یک کاربر مرتبط است و نمی تواند حذف شود. لطفا کاربران خود را به دیگران مراجعه کنید و دوباره امتحان کنید.',
     'create' => array(
         'error'   => 'وزارت ایجاد نشد، لطفا دوباره امتحان کنید',
