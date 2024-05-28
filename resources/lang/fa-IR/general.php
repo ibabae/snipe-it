@@ -276,7 +276,7 @@ return [
     'accept_eula'           => 'توافق نامه پذیرش',
     'supplier'              => 'تامین کننده',
     'suppliers'  			=> 'تامین کننده',
-    'sure_to_delete'        => 'مطمئنید که میخواهید حذف شود',
+    'sure_to_delete'        => 'مطمعنید که میخواهید حذف شود',
     'sure_to_delete_var'    => 'آیا اطمینان دارید که می خواهید این را حذف نمایید؟',
     'delete_what'           => 'حذف :item',
     'submit'				=> 'ارسال',
