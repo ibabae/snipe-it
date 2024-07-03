@@ -6,15 +6,14 @@ return [
     'archived'  				=> 'بایگانی شد',
     'asset'  					=> 'دارایی',
     'bulk_checkout'             => 'خروج دارایی ها',
-    'bulk_checkin'              => 'دارایی های ثبت نام
-',
-    'checkin'  					=> 'دارایی checkin',
-    'checkout'  				=> 'دارایی پرداخت',
+    'bulk_checkin'              => 'ورود انبوه',
+    'checkin'  					=> 'ورودی',
+    'checkout'  				=> 'خروجی',
     'clone'  					=> 'دارایی شگرف',
-    'deployable'  				=> 'گسترش',
+    'deployable'  				=> 'قابل استقرار',
     'deleted'  					=> 'این دارایی حذف شده است.
 ',
-    'delete_confirm'            => 'Are you sure you want to delete this asset?',
+    'delete_confirm'            => 'آیا از حذف این دارایی مطمعن هستید؟',
     'edit'  					=> 'ویرایش دارایی',
     'model_deleted'  			=> 'این مدل دارایی حذف شده است. قبل از اینکه بتوانید Asset را بازیابی کنید، باید مدل را بازیابی کنید.
 ',

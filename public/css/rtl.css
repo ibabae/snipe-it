@@ -238,3 +238,19 @@ th {
 .text-left {
   text-align: right;
 }
+.close{
+  float: left;
+}
+.main-header .logo {
+  padding: 0 15px 0 5px;
+}
+
+@media (min-width: 992px) {
+  .col-md-offset-3 {
+      margin-left: 0;
+      margin-right: 25%;
+  }
+}
+.treeview-menu>li>a{
+  padding: 5px 15px 5px 5px;
+}
